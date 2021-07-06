@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./js/Apple.js"></script>
+    <script src="./js/Human.js"></script>
+    <script>
+        
+        let human1= new Human('Adam',50);
+        let human2= new Human('Eva',45);
+        let apple= new Apple();
+        function eatApple(){
+            human1.eat(apple);
+        }
+        let t=setInterval(eatApple,1000);
+        
+    </script>
+</body>
+</html>
